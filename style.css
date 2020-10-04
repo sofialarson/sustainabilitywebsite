@@ -33,12 +33,6 @@ nav li {
   background-color: #589F3E;
 }
 
-.column {
-  float: left;
-  width: 33%
-  padding: 0 10px;
-}
-
 .row {margin: 0 -5px}
 
 .row:after {
@@ -51,7 +45,7 @@ nav li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   background-color: #FFFFFF;
-  margin-left: 63px;
+  margin-left: 40px;
 }
 
 .goals {
@@ -100,5 +94,45 @@ div.earthcounter {
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
-  width: 30%;
+}
+
+div.main-image{
+  display: flex;
+  justify-content: center;
+}
+
+div.pagewidth{
+  display:flex;
+  justify-content:center;
+}
+
+div.earthcontainer{
+  display:flex;
+  justify-content: center;
+}
+
+div.sustainabilitytest{
+  display:flex;
+  justify-content: center;
+}
+
+div.threeColumns{
+  display:flex;
+  justify-content: center;
+}
+
+div.cardimage{
+  display:flex;
+  justify-content: center;
+}
+
+div.boxright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.words {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
 }

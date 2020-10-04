@@ -7,12 +7,6 @@
     <style>
     body {background-color: #F1F1F1}
 
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-
     </style>
   </head>
   <body>
@@ -35,18 +29,19 @@
 
 <!-- Header and main image-->
     <h1 class="sansserif" style = "text-align: center; text-shadow: 0px 4px #CCE2C4; padding: 20px; color: #589F3E"> SUSTAINABILITY </h1>
-    <div class = "main image" style = "margin-top: 100px; margin-bottom: 50px">
-    <img src="main.png" alt="" class = "center">
+    <div class = "main-image" style = "margin-top: 100px; margin-bottom: 50px">
+    <img src="main.png" alt="" style = "width: 50%">
     </div>
 
     <br>
 
 <!-- Sustainability info box -->
-    <div style="width:500px;height:200px; solid #000; box-shadow: 10px 10px 20px gray"
-    class = "center">
+    <div class = "pagewidth" style = "width:100%">
+    <div style="width:500px;height:200px; solid #000; box-shadow: 10px 10px 20px gray">
     <h3 style = "text-align: center; padding: 10px; color: #589F3E; font-weight:bold;" class="sansserif"> What is sustainability? </h3>
     <p class="sansserif" style = "padding: 10px"> Sustainability is a goal. The aim is to maintain conditions where humans and nature can coexist to support present and future generations.
     Currently, we are falling short of that goal. At the rate that we are expending resources, the earth will not be able to support us for much longer. </p>
+    </div>
     </div>
 
     <br>
@@ -64,12 +59,14 @@
     <div class = "text 2">
     <h3 style = "text-align: center" class="sansserif" style = "padding: 20px"> If everyone had the lifestyle of an average American,
      we would need about five earths to support them. </h3>
-    <img src= "Earths.png" class = "center" style = "margin-top: 60px; margin-bottom: 60px">
+    <div class = "earthcontainer" style = "width: 100%">
+    <img src= "Earths.png" style = "margin-top: 60px; margin-bottom: 60px; width: 50%">
     </div>
-    <div class = "sustainability test">
-    <a href = "https://www.footprintcalculator.org/"><button class = "button center" style = "text-decoration: none;" > Take the test! </button></a>
+    <div class = "sustainabilitytest" style = "width: 100%">
+    <a href = "https://www.footprintcalculator.org/"><button class = "button" style = "text-decoration: none; width: 300px" > Take the test! </button></a>
     </div>
   </div>
+</div>
 
   </body>
 </html>
